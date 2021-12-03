@@ -1,0 +1,22 @@
+.navbar-dropdown.open {
+  -webkit-transform: scaleY(1);
+          transform: scaleY(1);
+}
+
+.navbar-dropdown.open * {
+  opacity: 1;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+
+.navbar-dropdown.closed {
+  -webkit-transform: scaleY(0);
+          transform: scaleY(0);
+}
+
+.navbar-dropdown.closed * {
+  opacity: 0;
+  -webkit-transition-duration: 200ms;
+          transition-duration: 200ms;
+}
+/*# sourceMappingURL=navbar-styles.css.map */

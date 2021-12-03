@@ -1,0 +1,16 @@
+.navbar-dropdown.open {
+    transform: scaleY(1);
+}
+
+.navbar-dropdown.open * {
+    opacity: 1;
+    transition-duration: 200ms;
+}
+
+.navbar-dropdown.closed {
+    transform: scaleY(0);
+}
+.navbar-dropdown.closed * {
+    opacity: 0;
+    transition-duration: 200ms;
+}

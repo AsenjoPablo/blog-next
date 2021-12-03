@@ -1,0 +1,25 @@
+@import '../components/Layouting/Navbar/navbar-styles.css';
+@import './components.css';
+
+html {
+	color: #323232;
+}
+
+.markdown-blog-content h1 {
+	@apply text-2xl font-bold mt-8 my-4;
+}
+.markdown-blog-content h2 {
+	@apply text-xl font-semibold mt-8 my-3;
+}
+.markdown-blog-content h3 {
+	@apply font-medium mt-8;
+}
+.markdown-blog-content code {
+	@apply bg-gray-800 text-white p-4 block my-2 rounded-lg shadow-lg;
+	width: fit-content;
+}
+
+.main__hero-background {
+	background-image: url('../public/resources/background.svg');
+	background-size: cover;
+}
